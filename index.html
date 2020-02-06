@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang='en' dir='ltr'>
+  <head>
+    <link href='css/style.css' type='text/css' rel='stylesheet'>
+    <meta charset='utf-8'>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='./scripts/main.js'></script>
+    <title>DOM Events</title>
+  </head>
+  <body>
+    <header>
+      <h1>DOM Events</h1>
+    </header>
+    <main>
+
+      <div class='card' id='card1'>
+        <h3><a href='https://developer.mozilla.org/en-US/docs/Web/API/Event'>Events</a> & their properties</h3>
+        <h4>event.property</h4>
+
+
+        <div class='card-row'>
+            <button class='info' id='buttonClick'>Click Button</button>
+            &nbsp&nbsp&nbsp
+            <h2><div id='divClick'>[Click Div]</div></h2>
+            &nbsp&nbsp&nbsp
+            <h2><p id='pClick'>[Click p]</p></h2>
+        </div>
+        <div class='card-row'>
+
+            <button class='info' id='buttonMouseover'>Mouseover Button</button>
+            &nbsp&nbsp&nbsp
+            <h2><div id='divMouseover'>[Mouseover Div]</div></h2>
+            &nbsp&nbsp&nbsp
+            <h2><p id='pMouseover'>[Mouseover p]</p></h2>
+        </div>
+        <div class='card-row'>
+            <p>event.target:&nbsp</p>
+            <div id='eventTarget'></div>
+        </div>
+        <div class='card-row'>
+            <p>event.eventPhase:&nbsp</p>
+            <div id='eventEventPhase'></div>
+        </div>
+        <div class='card-row'>
+            <p>event.timeStamp:&nbsp</p></a>
+
+            <div id='eventTimeStamp'></div>
+        </div>
+        <div class='card-row'>
+            <p>event.type:&nbsp</p>
+            <div id='eventType'></div>
+        </div>
+        <div class='card-row'>
+            <p>event.isTrusted:&nbsp</p>
+            <div id='eventIsTrusted'></div>
+        </div>
+        <div class='card-row'>
+            <p>event.defaultPrevented:&nbsp</p>
+            <div id='eventDefaultPrevented'></div>
+        </div>
+        <div class='card-row last'>
+            <button class='reset' type='reset' id='button-card1Reset'>Reset</button>
+        </div>
+      </div>
+
+
+
+    </main>
+  </body>
+</html>
